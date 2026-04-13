@@ -1,7 +1,7 @@
 from telegram import Update, ChatPermissions
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-BOT_TOKEN = 8417423139:AAHc6ECFwjg6fr938CMn8-jbzYkD9x1iUiw
+BOT_TOKEN = "8417423139:AAHc6ECFwjg6fr938CMn8-jbzYkD9x1iUiw"
 
 # Start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
